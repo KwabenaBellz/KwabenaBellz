@@ -14,6 +14,12 @@
 | **NOVA** | Conversational assistant with long-term memory and provider failover |
 | **EKG Sovereign** | Deep-RL (PPO) trading research system — validated out-of-sample on locked holdout data, live shadow mode, hard risk gates, circuit breakers, kill-switch → [EKG-Empire](https://github.com/KwabenaBellz/EKG-Empire) |
 
+### Tested Python reliability work sample
+
+**[Agent Execution Guard](work-samples/agent-execution-guard/README.md)** — an original, synthetic demo of approval gates, durable retries, duplicate-action suppression, and audit evidence. Six focused Python unit tests pass locally. [Read the code and reproduce the demo](work-samples/agent-execution-guard/README.md).
+
+*This is a technical work sample, not a claim of an externally deployed product or client results.*
+
 ### The doctrine — six rules I don't break
 
 1. **Ground truth over vibes** — every number a system states must come from a tool or a file read, never from model imagination.
